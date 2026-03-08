@@ -1,11 +1,5 @@
 import styles from "./page.module.css";
 import Link from "next/link";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "AI Club | Hobart and William Smith",
-  description: "The premier AI community at Hobart and William Smith Colleges.",
-};
 
 export default function Home() {
   return (
